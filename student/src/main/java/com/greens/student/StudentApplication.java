@@ -12,6 +12,7 @@ import org.springframework.web.client.RestTemplate;
 public class StudentApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Hi");
 		SpringApplication.run(StudentApplication.class, args);
 	}
 
