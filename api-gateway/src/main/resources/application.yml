@@ -17,7 +17,7 @@ spring:
     gateway:
       routes:
       - id: STUDENT-SERVICE
-        uri: lb://USER-SERVICE
+        uri: lb://STUDENT-SERVICE
         predicates:
         - Path=/student/**
       - id: DEPARTMENT-SERVICE
